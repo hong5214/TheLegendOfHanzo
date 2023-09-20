@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\ChapMgr">
+      <UniqueIdentifier>{8190a176-c0b0-4ada-a363-01448e53473e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ChapMgr\Help">
+      <UniqueIdentifier>{a0bf0e39-10bc-4d06-b2b4-b730d791c39f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameMgr">
+      <UniqueIdentifier>{dd92506a-277e-4f22-b045-ae03b29cc850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameMgr\Character">
+      <UniqueIdentifier>{76ec327a-225d-4864-9d66-b70d4be775b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameMgr\Character\Player">
+      <UniqueIdentifier>{9459db10-5493-424a-b021-069edd0c8941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameMgr\Character\Player\Stat">
+      <UniqueIdentifier>{8abdb5be-9907-459a-a5e8-745375dfa461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameMgr\Character\Player\Item">
+      <UniqueIdentifier>{e06ba224-a1a1-4423-a430-ebd1fc0ecf7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameMgr\Character\Monster">
+      <UniqueIdentifier>{b7133ecb-d0d8-4bd0-8e70-644fab91f7f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainMgr">
+      <UniqueIdentifier>{cebaf1a7-eceb-4a76-b89b-546059c9a4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainMgr\Font">
+      <UniqueIdentifier>{e860f870-1418-46aa-8095-13c48a766da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainMgr\Key">
+      <UniqueIdentifier>{6147aa09-a803-49e0-9b9c-5e43ea08b070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainMgr\Sprite">
+      <UniqueIdentifier>{09159fb5-9ba6-4d3d-a8d6-34cbf7c1cb7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainMgr\Sound">
+      <UniqueIdentifier>{61d52f9b-efee-4445-a052-f6c4ab5227fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainMgr\Map">
+      <UniqueIdentifier>{13bb9f74-4bfc-47bf-91dd-a899910e8f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainMgr\Image">
+      <UniqueIdentifier>{c5e65812-8b6f-4f50-bcf8-9468ba6148f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MainMgr\Mysql">
+      <UniqueIdentifier>{8f36a8e7-495b-493c-9a78-ed4359633356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MenuMgr">
+      <UniqueIdentifier>{e08b7bc2-1ea3-4595-9311-15ca6bdc6dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MonsterMgr">
+      <UniqueIdentifier>{0b4362b0-ea36-460e-a1e4-4aece4cbd907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ChapMgr\Chap">
+      <UniqueIdentifier>{305748dc-d099-4c9d-8828-cdfbdfa64a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ChapMgr\Chap\1.Logo">
+      <UniqueIdentifier>{f6bef080-fac3-4084-8871-fa362bbd7aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ChapMgr\Chap\2.Menu">
+      <UniqueIdentifier>{1ca945a5-39d5-4db4-b55b-b8bee72b4a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ChapMgr\Chap\3.Game">
+      <UniqueIdentifier>{438c6b82-d8a4-4396-80bb-0a8781c3b863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ChapMgr\Chap\4.Over">
+      <UniqueIdentifier>{4bddf6a3-9687-4a39-97e2-e052b053d911}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sound.h">
+      <Filter>소스 파일\MainMgr\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>소스 파일\MainMgr\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Mysql.h">
+      <Filter>소스 파일\MainMgr\Mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\GameMgr\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\GameMgr\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Chap.h">
+      <Filter>소스 파일\ChapMgr\Chap</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일\ChapMgr\Chap\3.Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>소스 파일\ChapMgr\Chap\1.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>소스 파일\ChapMgr\Chap\2.Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Over.h">
+      <Filter>소스 파일\ChapMgr\Chap\4.Over</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\GameMgr\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="FmodSound.h">
+      <Filter>소스 파일\MainMgr\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Iteminfo.h">
+      <Filter>소스 파일\GameMgr\Character\Player\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageInfo.h">
+      <Filter>소스 파일\MainMgr\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceFont.h">
+      <Filter>소스 파일\MainMgr\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="key.h">
+      <Filter>소스 파일\MainMgr\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>소스 파일\MainMgr\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CMng.h">
+      <Filter>소스 파일\ChapMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>소스 파일\GameMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>소스 파일\MenuMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>소스 파일\MonsterMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterMGR.h">
+      <Filter>소스 파일\MonsterMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>소스 파일\MainMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>소스 파일\MainMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stat.h">
+      <Filter>소스 파일\GameMgr\Character\Player\Stat</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h">
+      <Filter>소스 파일\ChapMgr\Help</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스 파일\MainMgr\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>소스 파일\MainMgr\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Mysql.cpp">
+      <Filter>소스 파일\MainMgr\Mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\GameMgr\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\ChapMgr\Chap\3.Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>소스 파일\ChapMgr\Chap\1.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>소스 파일\ChapMgr\Chap\2.Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Over.cpp">
+      <Filter>소스 파일\ChapMgr\Chap\4.Over</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\GameMgr\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="FmodSound.cpp">
+      <Filter>소스 파일\MainMgr\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Iteminfo.cpp">
+      <Filter>소스 파일\GameMgr\Character\Player\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageInfo.cpp">
+      <Filter>소스 파일\MainMgr\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceFont.cpp">
+      <Filter>소스 파일\MainMgr\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="key.cpp">
+      <Filter>소스 파일\MainMgr\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>소스 파일\MainMgr\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CMng.cpp">
+      <Filter>소스 파일\ChapMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\GameMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>소스 파일\MenuMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterMGR.cpp">
+      <Filter>소스 파일\MonsterMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일\MainMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Stat.cpp">
+      <Filter>소스 파일\GameMgr\Character\Player\Stat</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>소스 파일\ChapMgr\Help</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
